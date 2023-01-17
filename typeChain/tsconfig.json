@@ -3,7 +3,8 @@
   "compilerOptions": {
     "outDir": "build",
     "target": "ES6", //ts를 Js로 변환시키는 버전
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "lib": ["Es6", "Dom"]
   }
 }
 
