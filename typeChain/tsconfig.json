@@ -4,9 +4,13 @@
     "outDir": "build",
     "target": "ES6", //ts를 Js로 변환시키는 버전
     "moduleResolution": "node",
-    "lib": ["Es6", "Dom"]
+    "lib": ["ES6"],
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "CommonJS"
   }
 }
 
 // 타입스크립트가 src의 모든파일을 확인한다는것을 의미한다.
 // 타입스크립트는 컴파일러니까, 이 파일들을 일반적인 자바스크립트로 컴파일 시켜주는것이다.!
+// 타입스크립트는 내장된 자바스크립트 API를 위한 기본적인 타입정의는 가지고 있다.
