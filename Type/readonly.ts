@@ -1,12 +1,12 @@
 // readonly 는 내용을 수정할수 없다 !
 
-type Player = {
-  readonly name: string;
-  age?: number;
-};
+// type Player = {
+//   readonly name: string;
+//   age?: number;
+// };
 
-const playerMaker = (name: string): Player => ({ name });
+// const playerMaker = (name: string): Player => ({ name });
 
-const nico = playerMaker("nico");
+// const nico = playerMaker("nico");
 
-const numbers: readonly number[] = [1, 2, 3, 4];
+// const numbers: readonly number[] = [1, 2, 3, 4];

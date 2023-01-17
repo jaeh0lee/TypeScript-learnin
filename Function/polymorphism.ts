@@ -9,13 +9,15 @@
 
 /* generic이란 타입의 placeholder 같은것이다. 사용이유는 우리가 call signature을 작성할때 여기 들어올 확실한 타입을 모를때 generic을 사용한다. */
 
-type SuperPrint = {
-  <Generic>(arr: Generic[]): Generic; // 꺽새안의 Generic이 generic이란 타입이다.
-};
+// type SuperPrint = {
+//   <Generic, M>(arr: Generic[], b: M): Generic; // 꺽새안의 Generic이 generic이란 타입이다.
+// };
 
-const superPrint: SuperPrint = (arr) => arr[0];
+// const superPrint: SuperPrint = (arr) => arr[0];
 
-const a2 = superPrint([1, 2, 3, 4]);
-const b2 = superPrint([true, false, true]);
-const c2 = superPrint(["jaeho", "nakyuong"]);
-const d2 = superPrint([1, 2, 3, true, "jaeho"]);
+// const a2 = superPrint([1, 2, 3, 4], "x");
+// const b2 = superPrint([true, false, true], 1);
+// const c2 = superPrint(["jaeho", "nakyuong"], false);
+// const d2 = superPrint([1, 2, 3, true, "jaeho"], []);
+
+//React.js

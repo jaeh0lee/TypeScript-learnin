@@ -26,15 +26,15 @@ const playeresNakyoung: {
 type Age = number;
 type Name = string;
 
-type Player = {
-  name: Name;
-  age?: Age;
-};
+// type Player = {
+//   name: Name;
+//   age?: Age;
+// };
 
-const a1: Player = {
-  name: "jaeho",
-  age: 12,
-};
+// const a1: Player = {
+//   name: "jaeho",
+//   age: 12,
+// };
 
 //함수타입
 function playerMaker(name: string): Player {
